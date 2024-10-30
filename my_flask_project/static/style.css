@@ -1,0 +1,144 @@
+/* General Styles */
+body {
+    font-family: 'Noto Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f4f7fb; /* Light blue background */
+    color: #333;
+}
+
+/* Header Styling */
+header {
+    background-color: #1e3a8a; /* Deep blue */
+    color: white;
+    width: 100%;
+    padding: 15px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 1200px;
+    margin: auto;
+    gap: 20px;
+    padding: 0 20px;
+}
+
+.logo {
+    height: 100px; /* Increased logo size */
+    margin-right: 20px;
+}
+
+.title-container {
+    text-align: left;
+}
+
+header h1 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 3em; /* Larger font size */
+    margin: 0;
+    color: #ffe600; /* Gold color for vibrance */
+}
+
+header .subtitle {
+    font-size: 1.1em;
+    font-style: italic;
+    color: #d0e1ff;
+    margin-top: 5px;
+}
+
+nav {
+    text-align: center;
+    margin-top: 10px;
+}
+
+nav a {
+    margin: 0 15px;
+    color: #ffe600;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Hero Section Styling */
+.hero {
+    position: relative;
+    width: 100%;
+    max-height: 400px;
+    overflow: hidden;
+}
+
+.hero-image {
+    width: 100%;
+    height: auto;
+    max-height: 400px;
+    object-fit: cover;
+    filter: brightness(70%);
+}
+
+.hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    text-align: center;
+    font-size: 1.8em;
+    font-weight: 600;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 8px;
+    width: 90%;
+    max-width: 800px;
+}
+
+/* About Us Section */
+.about {
+    background-color: #ffffff;
+    padding: 30px;
+    width: 90%;
+    max-width: 900px;
+    margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-size: 1.1em;
+}
+
+.about h2 {
+    font-size: 1.8em;
+    font-weight: 700;
+    color: #1e3a8a;
+    margin-bottom: 15px;
+}
+
+.about p {
+    line-height: 1.6;
+}
+
+.about-image {
+    width: 100%;
+    max-width: 400px;
+    margin-top: 15px;
+    display: block;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer Styling */
+footer {
+    padding: 15px;
+    background-color: #1e3a8a;
+    color: #d0e1ff;
+    width: 100%;
+    text-align: center;
+    font-size: 0.9em;
+    font-style: italic;
+}

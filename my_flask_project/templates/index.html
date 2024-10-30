@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Law Society of Sierra Leone</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Noto+Sans:wght@400;700&display=swap">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="header-container">
+            <img src="{{ url_for('static', filename='logo.png') }}" alt="Law Society Logo" class="logo">
+            <div class="title-container">
+                <h1>The Law Society of Sierra Leone</h1>
+                <p class="subtitle">Upholding the Rule of Law & Justice</p>
+            </div>
+        </div>
+        <nav>
+            <a href="/">Home</a>
+            <a href="/about">About Us</a>
+            <a href="/events">Events</a>
+            <a href="/contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <img src="{{ url_for('static', filename='hero_image.jpg') }}" alt="Law Courts of Sierra Leone" class="hero-image">
+        <div class="hero-text">
+            <h2>Welcome to the Law Society of Sierra Leone</h2>
+            <p>The hub of the legal profession in Sierra Leone.</p>
+            <p><strong>Launching on the 1st of November 2024 at New Brrokfields Hotel, Freetown</strong></p>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section class="about">
+        <h2>About Us</h2>
+        <p>Dedicated to advocating for the rule of law, promoting justice, and supporting the professional development of Sierra Leone's legal community.</p>
+        <img src="{{ url_for('static', filename='law_books.jpg') }}" alt="Law Books" class="about-image">
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; The Law Society of Sierra Leone 2024</p>
+    </footer>
+</body>
+</html>
